@@ -1,0 +1,14 @@
+[
+	{
+		"userName": "el-dub",
+		"text": "It's first comment!"
+	},
+	{
+		"userName": "Liza",
+		"text": "Liza's comment"
+	},
+	{
+		"userName": "User1",
+		"text": "User's comment"
+	}
+]
