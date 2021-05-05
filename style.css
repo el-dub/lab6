@@ -1,0 +1,136 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    border: 0;
+	font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.comments {
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 5em;
+}
+
+.comments-header {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+h1 {
+    font-size: 24px;
+}
+.comments-number {
+    align-self: flex-start;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments-img {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+.input-commet-section, .comment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    height: auto;
+    width: 45%;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.avatar {
+    background-color: gainsboro;
+    width: 7%;
+    padding: 2px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+
+.users-comments {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px solid aquamarine;
+}
+
+.comment h3 {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.comment-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.comment {
+    margin-top: 8px;
+    padding: 5px;
+    background-color: rgb(180, 236, 253);
+    border-radius: 10px;
+}
+
+#btChangeColor {
+    width: 40%;
+}
+
+.no-border {
+    border: none;
+}
+
+.invisible {
+    display: none;
+}
